@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const ai = require\\('/Users/aokho/Downloads/uigen/node_modules/ai'\\); console.log\\(Object.keys\\(ai\\).filter\\(k => k.toLowerCase\\(\\).includes\\('tool'\\)\\)\\)\")",
+      "Bash(npx vitest *)",
+      "Bash(npm audit *)",
+      "Bash(npm install *)",
+      "Bash(npm view *)",
+      "Bash(npm list *)",
+      "Bash(npm run *)",
+      "mcp__playwright",
+      "Bash(pkill -f \"ms-playwright\")"
+    ]
+  }
+}
