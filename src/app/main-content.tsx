@@ -62,6 +62,7 @@ export function MainContent({ user, project }: MainContentProps) {
                 <div className="h-14 border-b border-neutral-200/60 px-6 flex items-center justify-between bg-neutral-50/50">
                   <Tabs
                     value={activeView}
+                    activationMode="manual"
                     onValueChange={(v) =>
                       setActiveView(v as "preview" | "code")
                     }
